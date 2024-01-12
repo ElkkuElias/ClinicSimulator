@@ -99,10 +99,9 @@
                 <version>0.0.8</version>
                 <executions>
                     <execution>
-
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.klinicsim/com.example.klinicsim.HelloApplication</mainClass>
+                            <mainClass>controller.ClinicSimController</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
