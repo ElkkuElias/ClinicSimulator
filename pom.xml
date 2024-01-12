@@ -11,6 +11,7 @@
     <packaging>war</packaging>
 
     <properties>
+        <jpro.releasepath>/app/target/jpro</jpro.releasepath>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.2</junit.version>
         <maven.plugin.validation>BRIEF</maven.plugin.validation>
