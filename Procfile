@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/KlinicSim-1.0-SNAPSHOT.war controller.ClinicSimController
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
