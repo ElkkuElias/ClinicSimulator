@@ -1,1 +1,1 @@
-web: java -jar target/KlinicSim-1.0-SNAPSHOT.war
+web: java $JAVA_OPTS -cp target/KlinicSim-1.0-SNAPSHOT.war controller.ClinicSimController
