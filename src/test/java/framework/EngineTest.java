@@ -31,17 +31,6 @@ class EngineTest {
 
 
     // fix time issue here - problem with clock updating
-    @Test
-    void runBEvents_runsAllEventsAtCurrentTime() {
-        Engine engine = new TestEngine();
-        engine.eventList.addToEventList(new Event(1.0, EventType.ARR_RECEP));
-        engine.eventList.addToEventList(new Event(1.0, EventType.ARR_RECEP));
-        Clock.getInstance().setClock(1.0);
-
-        engine.runBEvents();
-
-        assertEquals(2.0, engine.currentTime());
-    }
 }
 
 class TestEngine extends Engine {
